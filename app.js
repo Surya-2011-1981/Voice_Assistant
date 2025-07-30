@@ -9,7 +9,7 @@ const recognition = new speechRecognition();
 // recognition.lang = 'hi-IN';
 
 recognition.onstart = function () {
-    // readOut("Heyyy ,jimmy ,tell me what can i do for you");
+    readOut("Hii Sir,tell me what can i do for you");
     console.log("Recognition Activated");
 }
 
